@@ -15,8 +15,14 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private Vector3 targetPosition;                     // the target vector3 to nect position (left or right)
     private Position playerPosition = Position.Middle;
-    
 
+    public static Transform playerTransformPosision;
+    public static bool isDead = false;
+
+    private void Awake()
+    {
+        playerTransformPosision = this.gameObject.transform;
+    }
     // Start is called before the first frame update
     void Start()
     {
