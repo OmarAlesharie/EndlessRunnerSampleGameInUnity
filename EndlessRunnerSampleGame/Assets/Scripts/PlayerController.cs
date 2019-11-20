@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     }
 
     public float speed;                                 // moving speed to the left or the right
+    public float sideStepWidth;
+
     private Animator animator;
     private Vector3 targetPosition;                     // the target vector3 to nect position (left or right)
     private Position playerPosition = Position.Middle;
@@ -28,6 +30,7 @@ public class PlayerController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         speed = 10f;
+        sideStepWidth = 2f;
     }
 
     void StopJumping()
@@ -60,7 +63,7 @@ public class PlayerController : MonoBehaviour
             if (playerPosition == Position.Middle || playerPosition == Position.Right)
             {
                 animator.SetBool("isMoveLeft", true);
-                StartCoroutine(MovePlayer(-1f));
+                StartCoroutine(MovePlayer(-1f * sideStepWidth));
 
                 switch (playerPosition)
                 {
@@ -79,7 +82,7 @@ public class PlayerController : MonoBehaviour
             if (playerPosition == Position.Middle || playerPosition == Position.Left)
             {
                 animator.SetBool("isMoveRight", true);
-                StartCoroutine(MovePlayer(1f));
+                StartCoroutine(MovePlayer(1f * sideStepWidth));
 
                 switch (playerPosition)
                 {
