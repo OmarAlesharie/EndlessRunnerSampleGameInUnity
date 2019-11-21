@@ -5,26 +5,27 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // to track the player position on the lane 
+    // To track the player position on the lane 
     enum Position
     {
         Left, Middle, Right
     }
 
-    public float speed;                                 // moving speed to the left or the right
+    public float speed;                                 // Moving speed to the left or the right
     public float sideStepWidth;
 
     private Animator animator;
-    private Vector3 targetPosition;                     // the target vector3 to nect position (left or right)
+    private Vector3 targetPosition;                     // The target vector3 to nect position (left or right)
     private Position playerPosition = Position.Middle;
 
-    public static Transform playerTransformPosision;
+    public static Transform playerTransformPosision;    // The platforms need this information to get the direction of the player when the platform added to the world
     public static bool isDead = false;
 
     private void Awake()
     {
         playerTransformPosision = this.gameObject.transform;
     }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,11 +34,19 @@ public class PlayerController : MonoBehaviour
         sideStepWidth = 2f;
     }
 
+    /// <summary>
+    /// Stop/Cancel the jumping otherwise the action keep repeating
+    /// This function is triggered from the Jump animation event trigger
+    /// </summary>
     void StopJumping()
     {
         animator.SetBool("isJumping", false);
     }
 
+    /// <summary>
+    /// Stop/Cancel the moving left or right otherwise the action keep repeating
+    /// This function is triggered from the straff left/right animations event trigger
+    /// </summary>
     void StopMoving()
     {
         animator.SetBool("isMoveLeft", false);

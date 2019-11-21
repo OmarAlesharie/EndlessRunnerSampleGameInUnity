@@ -12,6 +12,9 @@ public class ScrollPlatform : MonoBehaviour
     }
     private void Update()
     {
-        transform.Translate(0f, 0f, -ScrollSpeed * Time.deltaTime);
+        if (!PlayerController.isDead)
+        {
+            transform.Translate(0f, 0f, -ScrollSpeed * Time.deltaTime);
+        } 
     }
 }

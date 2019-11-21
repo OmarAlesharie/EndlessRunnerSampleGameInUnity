@@ -62,6 +62,13 @@ public class PoolPlatforms : MonoBehaviour
 public static class Utils
 {
     public static System.Random r = new System.Random();
+
+    /// <summary>
+    /// Shuffle the list Items using Fisher–Yates shuffle algorithm
+    /// read more about this algorithm at: https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="list"></param>
     public static void Shuffle<T>(this IList<T> list)
     {
         int n = list.Count;
