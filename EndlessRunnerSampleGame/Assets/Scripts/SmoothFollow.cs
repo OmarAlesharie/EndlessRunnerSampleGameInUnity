@@ -33,6 +33,16 @@ public class SmoothFollow : MonoBehaviour
         if (target == null)
             return;
 
+        // Move the camera up with Downstairs
+        if (PlayerController.currentPlatform == "Platfrom_Downstairs")
+        {
+            heightOffset = 0.3f;
+        }
+        else
+        {
+            heightOffset = 0.0f;
+        }
+
         if (!PlayerController.isDead)
         {
             float wantedRotationAngle = target.eulerAngles.y;
