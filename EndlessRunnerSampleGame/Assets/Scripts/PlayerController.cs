@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
 
     public static Transform playerTransformPosision;    // The platforms need this information to get the direction of the player when the platform added to the world
     public static bool isDead = false;
+    public static string currentPlatform = "null";               // The current platfrom the player standing on, this will guide the platform to rise up or down
 
     private void Awake()
     {
@@ -32,6 +33,11 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         speed = 10f;
         sideStepWidth = 2f;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        currentPlatform = collision.gameObject.tag;
     }
 
     /// <summary>

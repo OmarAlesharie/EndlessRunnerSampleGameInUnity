@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Platrom_Stright
+  - PLatform_Stright
+  - Platfrom_Downstairs
+  - Platfrom_Tsection
+  - Undefined
+  - Platfrom_Upstairs
   layers:
   - Default
   - TransparentFX

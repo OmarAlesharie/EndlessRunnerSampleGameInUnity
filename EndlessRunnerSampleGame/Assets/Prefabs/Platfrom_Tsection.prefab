@@ -100,9 +100,10 @@ GameObject:
   - component: {fileID: 1472325459143240533}
   - component: {fileID: 1884017915013257367}
   - component: {fileID: 1429749615080618809}
+  - component: {fileID: 1265128020533120034}
   m_Layer: 0
-  m_Name: Platrom_Tsection
-  m_TagString: Platrom_Stright
+  m_Name: Platfrom_Tsection
+  m_TagString: Platfrom_Tsection
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -292,6 +293,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BackToPoolDelay: 6
+--- !u!114 &1265128020533120034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4317538153192713651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f92d4c52d234b49a2ffa7f082fd54e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4935371405438884748
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,6 +404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30
@@ -469,6 +486,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -536,6 +557,10 @@ PrefabInstance:
     - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -605,6 +630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3
@@ -672,6 +701,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -751,6 +784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24
@@ -818,6 +855,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -897,6 +938,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12
@@ -964,6 +1009,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1043,6 +1092,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -1110,6 +1163,10 @@ PrefabInstance:
     - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1179,6 +1236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21
@@ -1246,6 +1307,10 @@ PrefabInstance:
     - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1315,6 +1380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -1383,6 +1452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9
@@ -1450,6 +1523,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1529,6 +1606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Door_01_snaps002 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1845894196456500, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4053863791800276, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.45
@@ -1596,6 +1677,10 @@ PrefabInstance:
     - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1665,6 +1750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_WallWindow_01_snaps002 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1241633401612494, guid: 053a7880ac43136418152778d2e1daa6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4217998511614800, guid: 053a7880ac43136418152778d2e1daa6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18
@@ -1732,6 +1821,10 @@ PrefabInstance:
     - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1801,6 +1894,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_WallWindow_02_snaps002 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1707011455882000, guid: 2e0883a680249d34b9e7fc1c0b9c8574, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4635361259984274, guid: 2e0883a680249d34b9e7fc1c0b9c8574, type: 3}
       propertyPath: m_LocalPosition.x
       value: -27
@@ -1869,6 +1966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Door_02_snaps002
       objectReference: {fileID: 0}
+    - target: {fileID: 1461504648163160, guid: 79298396da72aeb4a9dbe792d38ccf1f, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4429141941954370, guid: 79298396da72aeb4a9dbe792d38ccf1f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.55
@@ -1936,6 +2037,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2015,6 +2120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_WallDoorFrame_02_snaps002 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1889208649562598, guid: fc8293156eb278246bce7d3aa1acdff4, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4211673843436980, guid: fc8293156eb278246bce7d3aa1acdff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9
@@ -2083,6 +2192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.999999
@@ -2150,6 +2263,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2229,6 +2346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_WallDoorFrame_02_snaps002 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1889208649562598, guid: fc8293156eb278246bce7d3aa1acdff4, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4211673843436980, guid: fc8293156eb278246bce7d3aa1acdff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21
@@ -2296,6 +2417,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2375,6 +2500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21
@@ -2442,6 +2571,10 @@ PrefabInstance:
     - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2511,6 +2644,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Door_01_snaps002 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1845894196456500, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4053863791800276, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.45
@@ -2578,6 +2715,10 @@ PrefabInstance:
     - target: {fileID: 1074104516812648, guid: 4e93dfa2dc2429043bf8dcaef3f85256, type: 3}
       propertyPath: m_Name
       value: Deck_Wall_Corner_snaps002 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1074104516812648, guid: 4e93dfa2dc2429043bf8dcaef3f85256, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4789782386094420, guid: 4e93dfa2dc2429043bf8dcaef3f85256, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2647,6 +2788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24
@@ -2714,6 +2859,10 @@ PrefabInstance:
     - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2783,6 +2932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24
@@ -2850,6 +3003,10 @@ PrefabInstance:
     - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2919,6 +3076,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -2986,6 +3147,10 @@ PrefabInstance:
     - target: {fileID: 1241633401612494, guid: 053a7880ac43136418152778d2e1daa6, type: 3}
       propertyPath: m_Name
       value: Deck_WallWindow_01_snaps002 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241633401612494, guid: 053a7880ac43136418152778d2e1daa6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4217998511614800, guid: 053a7880ac43136418152778d2e1daa6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3055,6 +3220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -3122,6 +3291,10 @@ PrefabInstance:
     - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3191,6 +3364,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
@@ -3259,6 +3436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18
@@ -3326,6 +3507,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3405,6 +3590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -3483,6 +3672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -3550,6 +3743,10 @@ PrefabInstance:
     - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3619,6 +3816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_WallDoorFrame_02_snaps002
       objectReference: {fileID: 0}
+    - target: {fileID: 1889208649562598, guid: fc8293156eb278246bce7d3aa1acdff4, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4211673843436980, guid: fc8293156eb278246bce7d3aa1acdff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3
@@ -3686,6 +3887,10 @@ PrefabInstance:
     - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3755,6 +3960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -3822,6 +4031,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3901,6 +4114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21
@@ -3979,6 +4196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27
@@ -4046,6 +4267,10 @@ PrefabInstance:
     - target: {fileID: 1869372638287626, guid: 5ec31ae96fe47a645a19a2facf06e472, type: 3}
       propertyPath: m_Name
       value: Gen_Ceiling_02_snaps002 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869372638287626, guid: 5ec31ae96fe47a645a19a2facf06e472, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4009022372631202, guid: 5ec31ae96fe47a645a19a2facf06e472, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4120,6 +4345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Ceiling_02_snaps002
       objectReference: {fileID: 0}
+    - target: {fileID: 1869372638287626, guid: 5ec31ae96fe47a645a19a2facf06e472, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4009022372631202, guid: 5ec31ae96fe47a645a19a2facf06e472, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4193,6 +4422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3
@@ -4260,6 +4493,10 @@ PrefabInstance:
     - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4329,6 +4566,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3
@@ -4396,6 +4637,10 @@ PrefabInstance:
     - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4465,6 +4710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -4532,6 +4781,10 @@ PrefabInstance:
     - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4601,6 +4854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -4669,6 +4926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18
@@ -4736,6 +4997,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4815,6 +5080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27
@@ -4892,6 +5161,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4971,6 +5244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12
@@ -5049,6 +5326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15
@@ -5116,6 +5397,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5195,6 +5480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Door_01_snaps002 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1845894196456500, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4053863791800276, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.51
@@ -5262,6 +5551,10 @@ PrefabInstance:
     - target: {fileID: 1845894196456500, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
       propertyPath: m_Name
       value: Deck_Door_01_snaps002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1845894196456500, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4053863791800276, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5331,6 +5624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -5399,6 +5696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -5466,6 +5767,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5545,6 +5850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -5612,6 +5921,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5691,6 +6004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
@@ -5769,6 +6086,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21
@@ -5837,6 +6158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_WallWindow_02_snaps002 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1707011455882000, guid: 2e0883a680249d34b9e7fc1c0b9c8574, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4635361259984274, guid: 2e0883a680249d34b9e7fc1c0b9c8574, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
@@ -5904,6 +6229,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5983,6 +6312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002
       objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6050,6 +6383,10 @@ PrefabInstance:
     - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_Name
       value: Deck_WallWindowFrame_01_snaps002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6119,6 +6456,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Corner_snaps002
       objectReference: {fileID: 0}
+    - target: {fileID: 1074104516812648, guid: 4e93dfa2dc2429043bf8dcaef3f85256, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4789782386094420, guid: 4e93dfa2dc2429043bf8dcaef3f85256, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -6187,6 +6528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -6254,6 +6599,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6333,6 +6682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -6410,6 +6763,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6489,6 +6846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_WallWindow_01_snaps002
       objectReference: {fileID: 0}
+    - target: {fileID: 1241633401612494, guid: 053a7880ac43136418152778d2e1daa6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4217998511614800, guid: 053a7880ac43136418152778d2e1daa6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18
@@ -6556,6 +6917,10 @@ PrefabInstance:
     - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6625,6 +6990,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30
@@ -6692,6 +7061,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6771,6 +7144,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30
@@ -6838,6 +7215,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6917,6 +7298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -6994,6 +7379,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7073,6 +7462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18
@@ -7150,6 +7543,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7229,6 +7626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21
@@ -7296,6 +7697,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7375,6 +7780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27
@@ -7443,6 +7852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -7510,6 +7923,10 @@ PrefabInstance:
     - target: {fileID: 1869372638287626, guid: 5ec31ae96fe47a645a19a2facf06e472, type: 3}
       propertyPath: m_Name
       value: Gen_Ceiling_02_snaps002 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869372638287626, guid: 5ec31ae96fe47a645a19a2facf06e472, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4009022372631202, guid: 5ec31ae96fe47a645a19a2facf06e472, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7584,6 +8001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
@@ -7652,6 +8073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18
@@ -7719,6 +8144,10 @@ PrefabInstance:
     - target: {fileID: 1869372638287626, guid: 5ec31ae96fe47a645a19a2facf06e472, type: 3}
       propertyPath: m_Name
       value: Gen_Ceiling_02_snaps002 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869372638287626, guid: 5ec31ae96fe47a645a19a2facf06e472, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4009022372631202, guid: 5ec31ae96fe47a645a19a2facf06e472, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7793,6 +8222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_WallWindow_02_snaps002
       objectReference: {fileID: 0}
+    - target: {fileID: 1707011455882000, guid: 2e0883a680249d34b9e7fc1c0b9c8574, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4635361259984274, guid: 2e0883a680249d34b9e7fc1c0b9c8574, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
@@ -7860,6 +8293,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7939,6 +8376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18
@@ -8006,6 +8447,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8085,6 +8530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21
@@ -8152,6 +8601,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8231,6 +8684,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21
@@ -8298,6 +8755,10 @@ PrefabInstance:
     - target: {fileID: 1241633401612494, guid: 053a7880ac43136418152778d2e1daa6, type: 3}
       propertyPath: m_Name
       value: Deck_WallWindow_01_snaps002 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241633401612494, guid: 053a7880ac43136418152778d2e1daa6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4217998511614800, guid: 053a7880ac43136418152778d2e1daa6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8367,6 +8828,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -8434,6 +8899,10 @@ PrefabInstance:
     - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8503,6 +8972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24
@@ -8570,6 +9043,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8649,6 +9126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9
@@ -8716,6 +9197,10 @@ PrefabInstance:
     - target: {fileID: 1707011455882000, guid: 2e0883a680249d34b9e7fc1c0b9c8574, type: 3}
       propertyPath: m_Name
       value: Deck_WallWindow_02_snaps002 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1707011455882000, guid: 2e0883a680249d34b9e7fc1c0b9c8574, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4635361259984274, guid: 2e0883a680249d34b9e7fc1c0b9c8574, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8785,6 +9270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_WallDoorFrame_02_snaps002 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1889208649562598, guid: fc8293156eb278246bce7d3aa1acdff4, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4211673843436980, guid: fc8293156eb278246bce7d3aa1acdff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24
@@ -8852,6 +9341,10 @@ PrefabInstance:
     - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8921,6 +9414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_03_snaps002 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21
@@ -8989,6 +9486,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gen_Floor_04_snaps002 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176885138236256, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15
@@ -9056,6 +9557,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9135,6 +9640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21
@@ -9212,6 +9721,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9291,6 +9804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002
       objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9369,6 +9886,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deck_WallWindow_02_snaps002 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1707011455882000, guid: 2e0883a680249d34b9e7fc1c0b9c8574, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
+      objectReference: {fileID: 0}
     - target: {fileID: 4635361259984274, guid: 2e0883a680249d34b9e7fc1c0b9c8574, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27
@@ -9436,6 +9957,10 @@ PrefabInstance:
     - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_Name
       value: Quart_Ceiling_03_snaps002 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881096032117688, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4939101408943760, guid: f6dc5f41ba87d3f40afdd5b7e878e2f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9514,6 +10039,10 @@ PrefabInstance:
     - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_Name
       value: Deck_Wall_Top_snaps002 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1040058481945068, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
+      propertyPath: m_TagString
+      value: Platfrom_Tsection
       objectReference: {fileID: 0}
     - target: {fileID: 4220414655356062, guid: 3c346d225f66d0b4b907e41c5b028e94, type: 3}
       propertyPath: m_LocalPosition.x
