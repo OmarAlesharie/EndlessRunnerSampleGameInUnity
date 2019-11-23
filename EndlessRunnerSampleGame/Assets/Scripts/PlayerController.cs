@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
     public static bool isDead = false;
     public static string currentPlatform = "null";               // The current platfrom the player standing on, this will guide the platform to rise up or down
 
+    private int RandJump;
+
     private void Awake()
     {
         playerTransformPosision = this.gameObject.transform;
@@ -70,6 +72,9 @@ public class PlayerController : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
+            RandJump = UnityEngine.Random.Range(0, 2);
+            Debug.Log(RandJump.ToString());
+            animator.SetInteger("JumpAnimation", RandJump);
             animator.SetBool("isJumping", true);
         }
 

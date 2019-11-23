@@ -9,6 +9,7 @@ TagManager:
   - Platfrom_Tsection
   - Undefined
   - Platfrom_Upstairs
+  - Wall
   layers:
   - Default
   - TransparentFX
