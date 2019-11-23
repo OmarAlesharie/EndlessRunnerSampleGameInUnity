@@ -14,7 +14,8 @@ public class ScrollPlatform : MonoBehaviour
     {
         if (!PlayerController.isDead)
         {
-            transform.Translate(0f, 0f, -ScrollSpeed * Time.deltaTime);
+            transform.position += PlayerController.playerTransformPosision.forward * -ScrollSpeed * Time.deltaTime;
+            //transform.Translate(0f, 0f, -ScrollSpeed * Time.deltaTime);
         } 
     }
 }

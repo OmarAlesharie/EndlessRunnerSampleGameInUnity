@@ -461,6 +461,10 @@ MonoBehaviour:
       type: 3}
     amount: 10
     expandable: 0
+  - prefab: {fileID: 4317538153192713651, guid: 18f4ffa5c9644054b898e4f137406767,
+      type: 3}
+    amount: 10
+    expandable: 0
   pooledItems: []
 --- !u!4 &1200551028
 Transform:

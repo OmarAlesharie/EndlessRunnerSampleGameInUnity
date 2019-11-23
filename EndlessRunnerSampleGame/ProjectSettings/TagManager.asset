@@ -10,6 +10,7 @@ TagManager:
   - Undefined
   - Platfrom_Upstairs
   - Wall
+  - ChangeDirectionTrigger
   layers:
   - Default
   - TransparentFX

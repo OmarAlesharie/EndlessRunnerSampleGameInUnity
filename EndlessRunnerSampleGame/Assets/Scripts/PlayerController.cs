@@ -11,16 +11,18 @@ public class PlayerController : MonoBehaviour
         Left, Middle, Right
     }
 
-    public float speed;                                 // Moving speed to the left or the right
-    public float sideStepWidth;
+    public float speed = 10f;                           // Moving speed to the left or the right
+    public float sideStepWidth = 2f;
 
     private Animator animator;
     private Vector3 targetPosition;                     // The target vector3 to nect position (left or right)
     private Position playerPosition = Position.Middle;
+    private bool canChangeDirection = false;
+    private Vector3 changeDirectionPoint;               // The point of the trigger that allow change direction;
 
     public static Transform playerTransformPosision;    // The platforms need this information to get the direction of the player when the platform added to the world
     public static bool isDead = false;
-    public static string currentPlatform = "null";               // The current platfrom the player standing on, this will guide the platform to rise up or down
+    public static string currentPlatform = "null";      // The current platfrom the player standing on, this will guide the platform to rise up or down
 
     private int RandJump;
 
@@ -33,13 +35,27 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        speed = 10f;
-        sideStepWidth = 2f;
     }
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            animator.SetBool("isWallHit", true);
+            isDead = true;
+            return;
+        }
+
         currentPlatform = collision.gameObject.tag;
+    }
+
+    // enable change direction with arrow keys rather change lane
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("ChangeDirectionTrigger"))
+        {
+            canChangeDirection = true;
+        }
     }
 
     /// <summary>
@@ -61,6 +77,10 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isMoveRight", false);
     }
 
+    /// <summary>
+    /// Stop/Cancel sliding otherwise the action keep repeating
+    /// This function is triggered from the Running Slide animations event trigger
+    /// </summary>
     void StopSliding()
     {
         animator.SetBool("isSliding", false);
@@ -69,17 +89,32 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("Can Change Direction: " + canChangeDirection.ToString());
+
+        if (isDead)
+        {
+            return;
+        }
         
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             RandJump = UnityEngine.Random.Range(0, 2);
-            Debug.Log(RandJump.ToString());
             animator.SetInteger("JumpAnimation", RandJump);
             animator.SetBool("isJumping", true);
         }
 
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
+            if (canChangeDirection)
+            {
+                playerTransformPosision = this.gameObject.transform;    // Update player transform variable to the platforms
+                changeDirectionPoint.y = transform.position.y;          // Set the location to the same height as the player
+                transform.position = changeDirectionPoint;              // Take the trigger location to keep the player at the correct lane
+                transform.Rotate(Vector3.up * -90);
+                canChangeDirection = false;                             // No need to change the direction more than once
+                return;                                                 // No need to process the key down farther until the next key down
+            }
+
             if (playerPosition == Position.Middle || playerPosition == Position.Right)
             {
                 animator.SetBool("isMoveLeft", true);
@@ -101,6 +136,16 @@ public class PlayerController : MonoBehaviour
         {
             if (playerPosition == Position.Middle || playerPosition == Position.Left)
             {
+                if (canChangeDirection)
+                {
+                    playerTransformPosision = this.gameObject.transform;    // Update player transform variable to the platforms
+                    changeDirectionPoint.y = transform.position.y;          // Set the location to the same height as the player
+                    transform.position = changeDirectionPoint;              // Take the trigger location to keep the player at the correct lane
+                    transform.Rotate(Vector3.up * 90);
+                    canChangeDirection = false;                             // No need to change the direction more than once
+                    return;                                                 // No need to process the key down farther until the next key down
+                }
+
                 animator.SetBool("isMoveRight", true);
                 StartCoroutine(MovePlayer(1f * sideStepWidth));
 
