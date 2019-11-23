@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 766317543210848308}
   - component: {fileID: 5402028374707436943}
   - component: {fileID: 3101704491148380810}
-  - component: {fileID: 1109889790286261780}
   m_Layer: 0
   m_Name: ChangeDirectionTrigger
   m_TagString: ChangeDirectionTrigger
@@ -93,15 +92,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1109889790286261780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7787938395945224562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3c40efd4e816b74692bd0dd6fce28c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
