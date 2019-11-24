@@ -17,8 +17,6 @@ public class ScrollPlatform : MonoBehaviour
         if (PlayerController.playerTransformPosision != null)
         {
             transform.forward = PlayerController.playerTransformPosision.forward;
-            Debug.Log("I'm " + gameObject.tag.ToString() + " and current player forward: " + PlayerController.playerTransformPosision.forward + " with rotation: "
-                + PlayerController.playerTransformPosision.rotation);
         } 
     }
 
