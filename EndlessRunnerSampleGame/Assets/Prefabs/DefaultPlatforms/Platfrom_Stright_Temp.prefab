@@ -69,8 +69,6 @@ GameObject:
   - component: {fileID: 4317538153192713650}
   - component: {fileID: -4135118730762753391}
   - component: {fileID: 1701180073862071673}
-  - component: {fileID: 3039555592193411214}
-  - component: {fileID: -40138988177110348}
   m_Layer: 0
   m_Name: Platfrom_Stright_Temp
   m_TagString: PLatform_Stright
@@ -181,31 +179,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.25, y: 4.9606, z: 0.9385843}
   m_Center: {x: 0, y: 1.9803, z: 27.95}
---- !u!114 &3039555592193411214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4317538153192713651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc674342af341144db22a264406f05a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BackToPoolDelay: 4
---- !u!114 &-40138988177110348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4317538153192713651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43f92d4c52d234b49a2ffa7f082fd54e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &9036646972159021468
 GameObject:
   m_ObjectHideFlags: 0

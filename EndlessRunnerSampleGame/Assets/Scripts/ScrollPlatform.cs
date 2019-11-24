@@ -14,6 +14,10 @@ public class ScrollPlatform : MonoBehaviour
     private void Start()
     {
         transform.forward = PlayerController.playerTransformPosision.forward;
+        if (destroyMe)
+        {
+            Invoke("Destroyplatform", destroyMeAfter);
+        }
     }
 
     private void OnEnable()
@@ -35,6 +39,6 @@ public class ScrollPlatform : MonoBehaviour
 
     void Destroyplatform()
     {
-        Destroy(gameObject, destroyMeAfter);
+        Destroy(gameObject);
     }
 }

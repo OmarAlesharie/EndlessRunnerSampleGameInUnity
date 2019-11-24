@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     private bool canChangeDirection = false;
     private bool AlreadyChangeDirection = false;        // Control change the direction only once in TSection
     private Vector3 changeDirectionPoint;               // The point of the trigger that allow change direction;
-    private Rigidbody rigidbody;
+    private new Rigidbody rigidbody;
 
     public float speed = 10f;                           // Moving speed to the left or the right
     public float sideStepWidth = 2f;

@@ -362,6 +362,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platfrom_Stright_Temp
       objectReference: {fileID: 0}
+    - target: {fileID: 4317538153192713651, guid: a043207f1e58a8045ab36da445e69032,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4317538153192713650, guid: a043207f1e58a8045ab36da445e69032,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -444,7 +449,7 @@ PrefabInstance:
     - target: {fileID: 2141725876083626193, guid: e9eae01693a3ff846bbc350adc1ea670,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2141725876083626193, guid: e9eae01693a3ff846bbc350adc1ea670,
         type: 3}
@@ -520,23 +525,23 @@ MonoBehaviour:
   items:
   - prefab: {fileID: 4317538153192713651, guid: e76ae4f8003053047bc6698058c79164,
       type: 3}
-    amount: 10
+    amount: 5
     expandable: 0
   - prefab: {fileID: 6028894962204297197, guid: 9d73dfe23f835154fb7fe33d1a8b38a2,
       type: 3}
-    amount: 10
+    amount: 5
     expandable: 0
   - prefab: {fileID: 4317538153192713651, guid: 807ee989489721c4ea43390f06d79cc9,
       type: 3}
-    amount: 10
+    amount: 5
     expandable: 0
   - prefab: {fileID: 4317538153192713651, guid: 18f4ffa5c9644054b898e4f137406767,
       type: 3}
-    amount: 10
+    amount: 5
     expandable: 0
   - prefab: {fileID: 4317538153192713651, guid: 6a33a3716a4a49a48bfa11092a6fdace,
       type: 3}
-    amount: 10
+    amount: 5
     expandable: 0
   pooledItems: []
 --- !u!4 &1200551028
@@ -625,6 +630,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701180073862071673, guid: e76ae4f8003053047bc6698058c79164,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837214724070560503, guid: e76ae4f8003053047bc6698058c79164,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837214724070560503, guid: e76ae4f8003053047bc6698058c79164,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e76ae4f8003053047bc6698058c79164, type: 3}
