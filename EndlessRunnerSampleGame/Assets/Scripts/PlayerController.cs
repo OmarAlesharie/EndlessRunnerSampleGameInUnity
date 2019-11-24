@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 targetPosition;                     // The target vector3 to nect position (left or right)
     private Position playerPosition = Position.Middle;
     private bool canChangeDirection = false;
+    private bool AlreadyChangeDirection = false;        // Control change the direction only once in TSection
     private Vector3 changeDirectionPoint;               // The point of the trigger that allow change direction;
 
     public static Transform playerTransformPosision;    // The platforms need this information to get the direction of the player when the platform added to the world
@@ -46,16 +47,51 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+        if (collision.gameObject.CompareTag("Platfrom_Tsection"))
+        {
+            AlreadyChangeDirection = false;
+        }
+
         currentPlatform = collision.gameObject.tag;
     }
 
     // enable change direction with arrow keys rather change lane
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("ChangeDirectionTrigger"))
+        if (other.gameObject.CompareTag("ChangeDirectionTrigger") && !AlreadyChangeDirection)
         {
             canChangeDirection = true;
+            changeDirectionPoint = other.gameObject.transform.position;
         }
+
+        if (other.gameObject.CompareTag("Left_Lane"))
+        {
+            CorrectPositionAfterTurning(other);
+            playerPosition = Position.Left;
+        }
+
+        if (other.gameObject.CompareTag("Middle_Lane"))
+        {
+            CorrectPositionAfterTurning(other);
+            playerPosition = Position.Middle;
+        }
+
+        if (other.gameObject.CompareTag("Right_Lane"))
+        {
+            CorrectPositionAfterTurning(other);
+            playerPosition = Position.Right;
+        }
+    }
+
+    /// <summary>
+    /// Correct player position when triggering with the guide boxes after turning
+    /// </summary>
+    /// <param name="other"></param>
+    private void CorrectPositionAfterTurning(Collider other)
+    {
+        Vector3 positionCorrector = other.transform.position;
+        positionCorrector.y = transform.position.y;
+        transform.position = positionCorrector;
     }
 
     /// <summary>
@@ -109,7 +145,8 @@ public class PlayerController : MonoBehaviour
                 changeDirectionPoint.y = transform.position.y;          // Set the location to the same height as the player
                 transform.position = changeDirectionPoint;              // Take the trigger location to keep the player at the correct lane
                 transform.Rotate(Vector3.up * -90);
-                canChangeDirection = false;                             // No need to change the direction more than once
+                canChangeDirection = false;
+                AlreadyChangeDirection = true;                          // No need to change the direction more than once
                 return;                                                 // No need to process the key down farther until the next key down
             }
 
@@ -140,7 +177,8 @@ public class PlayerController : MonoBehaviour
                     changeDirectionPoint.y = transform.position.y;          // Set the location to the same height as the player
                     transform.position = changeDirectionPoint;              // Take the trigger location to keep the player at the correct lane
                     transform.Rotate(Vector3.up * 90);
-                    canChangeDirection = false;                             // No need to change the direction more than once
+                    canChangeDirection = false;
+                    AlreadyChangeDirection = true;                          // No need to change the direction more than once
                     return;                                                 // No need to process the key down farther until the next key down
                 }
 
@@ -156,9 +194,7 @@ public class PlayerController : MonoBehaviour
                         playerPosition = Position.Middle;
                         break;
                 }
-            }
-
-            
+            }            
         }
 
         if (Input.GetKeyDown(KeyCode.DownArrow))
@@ -169,7 +205,7 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator MovePlayer(float value)
     {
-        targetPosition = new Vector3(transform.position.x + value, transform.position.y, transform.position.z);
+        targetPosition = new Vector3(transform.localPosition.x + value, transform.position.y, transform.position.z);
         while (transform.position != targetPosition)
         {
             transform.position = Vector3.Lerp(transform.position, targetPosition, speed * Time.deltaTime);

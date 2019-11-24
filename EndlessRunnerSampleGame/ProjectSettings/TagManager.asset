@@ -11,6 +11,9 @@ TagManager:
   - Platfrom_Upstairs
   - Wall
   - ChangeDirectionTrigger
+  - Middle_Lane
+  - Left_Lane
+  - Right_Lane
   layers:
   - Default
   - TransparentFX
