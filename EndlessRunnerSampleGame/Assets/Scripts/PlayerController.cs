@@ -10,20 +10,23 @@ public class PlayerController : MonoBehaviour
     {
         Left, Middle, Right
     }
-
-    public float speed = 10f;                           // Moving speed to the left or the right
-    public float sideStepWidth = 2f;
-
+    
     private Animator animator;
     private Vector3 targetPosition;                     // The target vector3 to nect position (left or right)
     private Position playerPosition = Position.Middle;
     private bool canChangeDirection = false;
     private bool AlreadyChangeDirection = false;        // Control change the direction only once in TSection
     private Vector3 changeDirectionPoint;               // The point of the trigger that allow change direction;
+    private Rigidbody rigidbody;
+
+    public float speed = 10f;                           // Moving speed to the left or the right
+    public float sideStepWidth = 2f;
+    public float jumpPower = 100f;
 
     public static Transform playerTransformPosision;    // The platforms need this information to get the direction of the player when the platform added to the world
     public static bool isDead = false;
     public static string currentPlatform = "null";      // The current platfrom the player standing on, this will guide the platform to rise up or down
+    
 
     private int RandJump;
 
@@ -36,6 +39,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        rigidbody = GetComponent<Rigidbody>();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -135,6 +139,7 @@ public class PlayerController : MonoBehaviour
             RandJump = UnityEngine.Random.Range(0, 2);
             animator.SetInteger("JumpAnimation", RandJump);
             animator.SetBool("isJumping", true);
+            rigidbody.AddForce(Vector3.up * jumpPower);
         }
 
         if (Input.GetKeyDown(KeyCode.LeftArrow))

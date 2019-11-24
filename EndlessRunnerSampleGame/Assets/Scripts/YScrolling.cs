@@ -17,11 +17,11 @@ public class YScrolling : MonoBehaviour
         {
             if (PlayerController.currentPlatform == "Platfrom_Downstairs")
             {
-                transform.Translate(0f, 0.06f, 0f);
+                transform.Translate(0f, 0.04f, 0f);
             }
             else if (PlayerController.currentPlatform == "Platfrom_Upstairs")
             {
-                transform.Translate(0f, -0.06f, 0f);
+                transform.Translate(0f, -0.04f, 0f);
             }
         }
     }
