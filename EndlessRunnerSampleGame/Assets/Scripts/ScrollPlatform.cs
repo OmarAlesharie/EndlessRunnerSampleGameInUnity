@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ScrollPlatform : MonoBehaviour
 {
-    private float ScrollSpeed = 3f;
+    private float ScrollSpeed = 5f;
 
     [SerializeField]
     bool destroyMe = false;     // To be used in editor for some platform that's not part of the actual gameplay for any reason!!

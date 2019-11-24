@@ -44,9 +44,16 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Wall"))
+        if (collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Mid_Height_Obstacle"))
         {
-            animator.SetBool("isWallHit", true);
+            animator.SetTrigger("isWallHit");
+            isDead = true;
+            return;
+        }
+
+        if (collision.gameObject.CompareTag("Low_Obstacle"))
+        {
+            animator.SetTrigger("isLowHit");
             isDead = true;
             return;
         }

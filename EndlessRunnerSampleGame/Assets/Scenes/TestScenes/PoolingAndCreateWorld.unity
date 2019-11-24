@@ -486,23 +486,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6692623474149188246, guid: e9eae01693a3ff846bbc350adc1ea670,
-        type: 3}
-      propertyPath: DebugLeftSphere
-      value: 
-      objectReference: {fileID: 1249827383042774155, guid: 34093aa814fa078498d41c85620d5a95,
-        type: 3}
-    - target: {fileID: 6692623474149188246, guid: e9eae01693a3ff846bbc350adc1ea670,
-        type: 3}
-      propertyPath: DebugRightSphere
-      value: 
-      objectReference: {fileID: 1249827383042774155, guid: 34093aa814fa078498d41c85620d5a95,
-        type: 3}
-    - target: {fileID: 6692623474149188246, guid: e9eae01693a3ff846bbc350adc1ea670,
-        type: 3}
-      propertyPath: jumpPower
-      value: 250
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9eae01693a3ff846bbc350adc1ea670, type: 3}
 --- !u!1 &1200551026
@@ -548,6 +531,10 @@ MonoBehaviour:
     amount: 10
     expandable: 0
   - prefab: {fileID: 4317538153192713651, guid: 18f4ffa5c9644054b898e4f137406767,
+      type: 3}
+    amount: 10
+    expandable: 0
+  - prefab: {fileID: 4317538153192713651, guid: 6a33a3716a4a49a48bfa11092a6fdace,
       type: 3}
     amount: 10
     expandable: 0

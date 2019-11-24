@@ -688,6 +688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   sideStepWidth: 2
+  jumpPower: 250
 --- !u!136 &6692623474149188247
 CapsuleCollider:
   m_ObjectHideFlags: 0

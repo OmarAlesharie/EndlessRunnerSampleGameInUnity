@@ -204,6 +204,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c61e332021883094c85f7c3ea934e3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyMe: 0
+  destroyMeAfter: 5
 --- !u!65 &8348539124859007865
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3004,6 +3006,11 @@ PrefabInstance:
     - target: {fileID: 4350049322196670, guid: 81279501067723a43bb567f45f07c5a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64267573689418294, guid: 81279501067723a43bb567f45f07c5a0,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 23724139574392822, guid: 81279501067723a43bb567f45f07c5a0,
         type: 3}
