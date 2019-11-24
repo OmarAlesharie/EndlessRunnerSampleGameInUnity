@@ -205,7 +205,7 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator MovePlayer(float value)
     {
-        targetPosition = new Vector3(transform.localPosition.x + value, transform.position.y, transform.position.z);
+        targetPosition = transform.position + transform.right * value;
         while (transform.position != targetPosition)
         {
             transform.position = Vector3.Lerp(transform.position, targetPosition, speed * Time.deltaTime);
