@@ -10,12 +10,23 @@ public class ScrollPlatform : MonoBehaviour
     {
         transform.forward = PlayerController.playerTransformPosision.forward;
     }
+
+    private void OnEnable()
+    {
+        // The check here is needed for the first instantiated platform as PlayerController.playerTransformPosision could be null
+        if (PlayerController.playerTransformPosision != null)
+        {
+            transform.forward = PlayerController.playerTransformPosision.forward;
+            Debug.Log("I'm " + gameObject.tag.ToString() + " and current player forward: " + PlayerController.playerTransformPosision.forward + " with rotation: "
+                + PlayerController.playerTransformPosision.rotation);
+        } 
+    }
+
     private void Update()
     {
         if (!PlayerController.isDead)
         {
             transform.position += PlayerController.playerTransformPosision.forward * -ScrollSpeed * Time.deltaTime;
-            //transform.Translate(0f, 0f, -ScrollSpeed * Time.deltaTime);
         } 
     }
 }
