@@ -141,13 +141,13 @@ public class PlayerController : MonoBehaviour
         {
             if (canChangeDirection)
             {
-                playerTransformPosision = this.gameObject.transform;    // Update player transform variable to the platforms
-                changeDirectionPoint.y = transform.position.y;          // Set the location to the same height as the player
-                transform.position = changeDirectionPoint;              // Take the trigger location to keep the player at the correct lane
+                playerTransformPosision = this.gameObject.transform;        // Update player transform variable to the platforms
+                changeDirectionPoint.y = transform.position.y;              // Set the location to the same height as the player
+                transform.position = changeDirectionPoint;                  // Take the trigger location to keep the player at the correct lane
                 transform.Rotate(Vector3.up * -90);
                 canChangeDirection = false;
-                AlreadyChangeDirection = true;                          // No need to change the direction more than once
-                return;                                                 // No need to process the key down farther until the next key down
+                AlreadyChangeDirection = true;                              // No need to change the direction more than once
+                return;                                                     // No need to process the key down farther until the next key down
             }
 
             if (playerPosition == Position.Middle || playerPosition == Position.Right)
@@ -173,13 +173,13 @@ public class PlayerController : MonoBehaviour
             {
                 if (canChangeDirection)
                 {
-                    playerTransformPosision = this.gameObject.transform;    // Update player transform variable to the platforms
-                    changeDirectionPoint.y = transform.position.y;          // Set the location to the same height as the player
-                    transform.position = changeDirectionPoint;              // Take the trigger location to keep the player at the correct lane
+                    playerTransformPosision = this.gameObject.transform;        // Update player transform variable to the platforms
+                    changeDirectionPoint.y = transform.position.y;              // Set the location to the same height as the player
+                    transform.position = changeDirectionPoint;                // Take the trigger location to keep the player at the correct lane
                     transform.Rotate(Vector3.up * 90);
                     canChangeDirection = false;
-                    AlreadyChangeDirection = true;                          // No need to change the direction more than once
-                    return;                                                 // No need to process the key down farther until the next key down
+                    AlreadyChangeDirection = true;                              // No need to change the direction more than once
+                    return;                                                     // No need to process the key down farther until the next key down
                 }
 
                 animator.SetBool("isMoveRight", true);
@@ -203,6 +203,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Coroutine that move the player smoothly from lane to lane
+    /// </summary>
+    /// <param name="value"></param>
+    /// <returns></returns>
     private IEnumerator MovePlayer(float value)
     {
         targetPosition = transform.position + transform.right * value;
