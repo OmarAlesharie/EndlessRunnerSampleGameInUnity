@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 3039555592193411214}
   - component: {fileID: -40138988177110348}
   m_Layer: 0
-  m_Name: Platfrom_Stright
+  m_Name: Platfrom_Stright_Temp
   m_TagString: PLatform_Stright
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c61e332021883094c85f7c3ea934e3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyMe: 0
+  destroyMe: 1
   destroyMeAfter: 5
 --- !u!65 &1701180073862071673
 BoxCollider:
